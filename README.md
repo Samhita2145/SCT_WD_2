@@ -26,7 +26,8 @@ SCT_WEB_TASK2/
 └── .gitignore
 
 ## Demo Link: 
-- https://samhita2145.github.io/SCT_Web_2/
+-https://samhita2145.github.io/SCT_WD_2/
+
 
 
 
