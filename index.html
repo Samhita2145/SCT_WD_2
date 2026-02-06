@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Stopwatch</title>
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <main class="app">
+
+    <!-- Header -->
+    <header class="header">
+        <h1>Stopwatch</h1>
+      <p>Time, beautifully measured</p>
+    </header>
+
+    <!-- Stopwatch Card -->
+    <section class="card">
+
+      <!-- Time Display -->
+      <div class="time-display">
+        <span id="minutes">00</span> :
+        <span id="seconds">00</span> .
+        <span id="milliseconds">00</span>
+      </div>
+
+      <!-- Controls -->
+      <div class="controls">
+        <button id="startBtn" class="btn primary">Start</button>
+        <button id="lapBtn" class="btn" disabled>Lap</button>
+        <button id="pauseBtn" class="btn">Pause</button>
+        <button id="resetBtn" class="btn danger">Reset</button>
+      </div>
+
+    </section>
+
+    <!-- Lap Section -->
+    <section class="laps">
+      <h2>Lap Timeline</h2>
+      <ul id="lapsList"></ul>
+    </section>
+
+      </main>
+
+  <!-- JS -->
+  <script src="script.js"></script>
+</body>
+</html>
